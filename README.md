@@ -1,9 +1,13 @@
 #Assignment Management Software System
+
+
 You need to develop a system for managing student assignments and submissions. Assume 
 that students will form groups each containing 2 students. The teacher may decide to give the 
 same or different assignments to different groups. The teacher may evaluate the assignments 
 offline, also teacher can conduct viva for each group, but may decide to give different marks 
 to students in the same group. 
+
+
 One linked list to be maintained for students. Each student record contains student-id, name, 
 group-partner, group-id, assignment-name/id, deadline, status-of-assignment (submitted/notsubmitted/evaluated), offline-evaluation-marks, viva-marks. 
 Another linked list is maintained for assignment records. Each record contains assignment-id, 
@@ -11,7 +15,11 @@ topic-name, status (declared/due-date-over/evaluated). The same assignment may b
 multiple student groups. Each assignment-record in turn can have a separate linked list inside, 
 each record containing student-group-id, status (declared/submitted/not-submitted/evaluated), 
 marks given. 
+
+
 Following operations are to be defined :
+
+
 1. Insert a student record in the student-list. After every insertion of a student-record, 
 appropriate changes/insertion needs to be done in the assignment-list also. 
 2. Insert assignment-record in the assignment-record-list. The insertion function can take 
