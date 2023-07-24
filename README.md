@@ -1,4 +1,4 @@
-#Assignment Management Software System
+# Assignment Management Software System
 
 
 You need to develop a system for managing student assignments and submissions. Assume 
@@ -17,7 +17,7 @@ each record containing student-group-id, status (declared/submitted/not-submitte
 marks given. 
 
 
-Following operations are to be defined :
+# Following operations are to be defined :
 
 
 1. Insert a student record in the student-list. After every insertion of a student-record, 
